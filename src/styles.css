@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.breed-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.breed-list {
+  flex: 1;
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.breed-list button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.breed-list button:hover {
+  background-color: #e1e1e1;
+}
+
+.breed-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sub-breeds,
+.more-images {
+  margin-top: 20px;
+}
+
+.sub-breeds img,
+.more-images img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.custom-search-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-search-btn:hover {
+  background-color: #0056b3;
+}
+
+.custom-search-modal {
+  margin-top: 20px;
+}
+
+.custom-search-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-search-image {
+  max-width: 150px;
+  height: auto;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .breed-container {
+    flex-direction: column;
+  }
+
+  .breed-list,
+  .breed-details {
+    max-width: 100%;
+    margin-right: 0;
+  }
+}

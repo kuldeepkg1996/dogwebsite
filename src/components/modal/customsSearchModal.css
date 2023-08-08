@@ -1,0 +1,37 @@
+.custom-search-modal {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.get-images-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.get-images-btn:hover {
+  background-color: #0056b3;
+}
+
+.images-section {
+  margin-top: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  margin-top: 15px;
+}
+
+.image-grid img {
+  max-width: 100%;
+  height: auto;
+}

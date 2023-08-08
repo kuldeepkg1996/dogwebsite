@@ -1,0 +1,40 @@
+.breeds-list {
+  text-align: center;
+  padding: 20px;
+}
+
+.breed-cards {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.breed-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+
+.breed-card:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.breed-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.breed-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
